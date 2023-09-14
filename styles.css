@@ -1,4 +1,13 @@
+.logo {
+  text-align: center;
+}
+
+.indexCenter {
+  height: auto;
+  width: 180px;
+}
+
 #welcomeMessage {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
