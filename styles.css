@@ -12,6 +12,11 @@
   font-weight: bold;
 }
 
+.introduction {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .btc .img {
   height: auto;
   width: 250px;
