@@ -1,9 +1,4 @@
-body.homePage {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+/* Homepage */
 .hero {
   display: flex;
   justify-content: center;
@@ -25,14 +20,29 @@ body.homePage {
   padding: 0 50px;
 }
 
-.btc .img {
-  height: auto;
-  width: 250px;
+/* Donation page */
+.crypto {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.eth .img {
+.address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.qrCode {
   height: auto;
   width: 250px;
+  align-self: center;
+}
+
+/* All */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer ul {
