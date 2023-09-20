@@ -14,12 +14,6 @@
   font-weight: bold;
 }
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  padding: 0 50px;
-}
-
 /* Donation page */
 .crypto {
   display: flex;
@@ -36,6 +30,16 @@
   height: auto;
   width: 250px;
   align-self: center;
+}
+
+/* Across pages */
+.introduction,
+.aboutKingcobra,
+.aboutFounder,
+.aboutCommunity {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
 }
 
 /* All */
