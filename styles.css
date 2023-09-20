@@ -1,5 +1,12 @@
-.logo {
-  text-align: center;
+body.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
 }
 
 .indexCenter {
@@ -13,8 +20,9 @@
 }
 
 .introduction {
-  padding-left: 30px;
-  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
 }
 
 .btc .img {
@@ -25,4 +33,10 @@
 .eth .img {
   height: auto;
   width: 250px;
+}
+
+.footer ul {
+  display: flex;
+  gap: 28px;
+  font-size: 13px;
 }
