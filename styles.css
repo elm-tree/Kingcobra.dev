@@ -14,6 +14,17 @@
   font-weight: bold;
 }
 
+.introductionHeader {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.introductionMessage {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+
 .links {
   display: flex;
   flex-direction: column;
