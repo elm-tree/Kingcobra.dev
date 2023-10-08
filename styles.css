@@ -36,6 +36,24 @@
   list-style: none;
 }
 
+/* About page */
+.aboutUs h1 {
+  text-align: center;
+}
+
+.aboutKingcobra .header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content {
+  padding: 0 25px;
+}
+
+.coreValuesStatement {
+  font-weight: bold;
+}
+
 /* Donation page */
 .crypto {
   display: flex;
